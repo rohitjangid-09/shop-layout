@@ -1,0 +1,27 @@
+body {
+  font-size: 14px;
+  // font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+ol li {
+  list-style: none;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}

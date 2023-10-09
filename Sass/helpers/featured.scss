@@ -1,0 +1,167 @@
+.featured-heading {
+    margin-top: 80px;
+
+    span {
+        font-size: 16px;
+        color: var(--haaf-rad);
+        font-weight: 600;
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: var(--black);
+        padding-top: 22px;
+        font-weight: 600;
+    }
+
+}
+
+.featured-box {
+    margin-top: 50px;
+
+    ul {
+        padding: 0;
+
+        li {
+            .playstation-box {
+                // width: 570px;
+                height: 600px;
+                border-radius: 4px;
+                background-color: var(--black);
+                position: relative;
+
+                img {
+                    width: 511px;
+                    height: 511px;
+                }
+
+                .playstation-text {
+                    position: absolute;
+                    bottom: 40px;
+                    left: 30px;
+
+
+                    h2 {
+                        color: var(--white);
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: var(--white);
+                        font-weight: 400;
+                        width: 242px;
+                    }
+
+                    a {
+                        font-size: 16px;
+                        color: var(--white);
+                        font-weight: 500;
+                        padding-bottom: 8px;
+                        border-bottom: 2px solid var(--shope-border);
+                    }
+                }
+
+               
+            }
+
+
+
+            .women’s-collections-box {
+                // width: 570px;
+                height: 286px;
+                border-radius: 4px;
+                background-color: var(--black);
+                position: relative;
+
+                img {
+                    width: 432px;
+                    height: 286px;
+                    padding-right: 2px;
+                }
+
+                .playStation-text {
+                    position: absolute;
+                    bottom: 40px;
+                    left: 30px;
+
+
+                    h2 {
+                        color: var(--white);
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: var(--white);
+                        font-weight: 400;
+                        width: 242px;
+                    }
+
+                    a {
+                        font-size: 16px;
+                        color: var(--white);
+                        font-weight: 500;
+                        padding-bottom: 8px;
+                        border-bottom: 2px solid var(--shope-border);
+                    }
+                }
+            }
+
+            .featured-box-right-bottam {
+                ol {
+                    padding: 0;
+
+                    li {
+                        margin: 25px 0px;
+
+                        .speakers-box {
+                            // width: 270px;
+                            height: 287px;
+                            background-color: var(--black);
+                            border-radius: 4px;
+                            position: relative;
+
+                            img {
+                                width: 190px;
+                                height: 221px;
+                            }
+
+                            .playStation-text {
+                                position: absolute;
+                                bottom: 40px;
+                                left: 30px;
+
+
+                                h2 {
+                                    color: var(--white);
+                                    font-size: 24px;
+                                    font-weight: 600;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                    color: var(--white);
+                                    font-weight: 400;
+                                    width: 242px;
+                                }
+
+                                a {
+                                    font-size: 16px;
+                                    color: var(--white);
+                                    font-weight: 500;
+                                    padding-bottom: 8px;
+                                    border-bottom: 2px solid var(--shope-border);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

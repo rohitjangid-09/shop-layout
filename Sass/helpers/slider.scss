@@ -1,0 +1,114 @@
+.slider-all-part {
+    border-top: 1.5px solid var(--slider-border);
+    position: relative;
+
+    .slider-all {
+        margin-top: 5px;
+
+
+        .left-slider-menu {
+            position: relative;
+
+            &::after {
+                margin: 0 20px;
+                position: absolute;
+                right: 8px;
+                top: -5px;
+                bottom: 0;
+                height: 95%;
+                content: "";
+                border-right: 1.5px solid var(--black);
+                opacity: 0.3;
+
+            }
+
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    margin: 23px 0;
+
+                    a {
+                        font-size: 16px;
+                        color: var(--black);
+                        font-weight: 400;
+                    }
+
+                    .right-arrow-one {
+                        padding-left: 106px;
+                    }
+
+                    .right-arrow-two {
+                        padding-left: 135px;
+                    }
+                }
+            }
+        }
+
+        .slider {
+            background-color: var(--black);
+            padding: 20px 50px 20px 80px;
+
+            .slider-text {
+                .apple-box {
+                    span {
+                        font-size: 16px;
+                        color: var(--white);
+                        font-weight: 400;
+                        // padding-left: 15px;
+                    }
+
+                    img {
+                        padding-right: 15px;
+                    }
+
+
+
+                }
+
+                h1 {
+                    font-size: 48px;
+                    color: var(--white);
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 600;
+                    padding-top: 20px;
+                }
+
+                .slider-buttan {
+                    padding-top: 20px;
+
+                    a {
+                        font-size: 16px;
+                        color: var(--white);
+                        font-weight: 500;
+                        padding-bottom: 5px;
+                        border-bottom: 2px solid var(--white);
+                    }
+
+                    img {
+                        height: 25px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            .slider-image {
+                img {
+                    width: 496px;
+                    height: 352px;
+                }
+
+            }
+
+            .slider-image-two {
+                img {
+                    width: 773px;
+                }
+            }
+
+        }
+    }
+}
+

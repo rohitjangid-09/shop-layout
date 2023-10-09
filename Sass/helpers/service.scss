@@ -1,0 +1,39 @@
+.service {
+    margin-top: 70px;
+
+    ul {
+        margin: auto;
+        padding: 0;
+
+        li {
+            text-align: center;
+
+            .service-image {
+                background-color: var(--black);
+                width: 80px;
+                height: 80px;
+                border-radius: 50px;
+                border: 10px solid var(--slety);
+                margin: auto;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+
+            h2 {
+                font-size: 20px;
+                color: var(--black);
+                font-weight: 600;
+                padding-top: 25px;
+            }
+
+            p {
+                font-size: 14px;
+                color: var(--black);
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.header {
+    background-color: var(--black);
+    padding: 10px 0;
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .off {
+            display: flex;
+            align-items: center;
+            padding-left: 25%;
+
+            h3 {
+                font-size: 14px;
+                color: var(--white);
+                font-weight: 400;
+                margin: 0;
+            }
+
+            a {
+                font-size: 14px;
+                color: var(--white);
+                font-weight: 600;
+                border-bottom: 2px solid var(--white);
+                margin-left: 10px;
+            }
+        }
+
+        .select-box {
+            background-color: #000;
+            border: none;
+            color: var(--white);
+            font-size: 14px;
+
+        }
+    }
+}
+
+.top-heading {
+    margin: 24px 0 16px;
+
+    .logo {
+        a {
+            font-size: 24px;
+            color: var(--black);
+            font-weight: 700;
+            font-family: 'Inter', sans-serif;
+        }
+    }
+
+
+    .menu {
+        ul {
+            margin: 0;
+
+            li {
+                margin: 0 0px 0 59px;
+
+
+
+                a {
+                    font-size: 16px;
+                    color: var(--black);
+                    font-weight: 400;
+                    border-bottom: 2px solid var(--white);
+                    padding-bottom: 3px;
+                    transition: 0.5s all ease;
+
+                    &:hover {
+                        border-bottom: 2px solid var(--menu-border);
+                    }
+                }
+
+                &:first-child a {
+                    border-bottom: 2px solid var(--menu-border);
+                }
+            }
+        }
+    }
+
+    .menu-right {
+        ul {
+            margin: 0;
+
+            li {
+                margin: 0 0px 0 17px;
+                position: relative;
+
+                input {
+                    background-color: var(--white-gray);
+                    border: none;
+                    padding: 15px;
+                    width: 280px;
+                    border-radius: 5px;
+
+                    ::placeholder {
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+
+                .search-icon {
+                    position: absolute;
+                    right: 14px;
+                    top: 14px;
+                }
+            }
+        }
+    }
+}
